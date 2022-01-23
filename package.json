@@ -6,8 +6,10 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "jszip": "^3.7.1"
+  },
   "devDependencies": {
-    "jszip": "^3.7.1",
     "vite": "^2.7.2"
   }
 }
