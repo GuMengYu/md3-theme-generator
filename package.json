@@ -1,15 +1,17 @@
 {
-  "name": "theme-generator",
+  "name": "md3-theme-generator",
   "version": "0.0.1",
+  "keywords": [
+    "md3-theme-generator",
+    "material theme generator",
+    "material you",
+    "MD3"
+  ],
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "esbuild index.js --bundle --outfile=out.js"
   },
   "dependencies": {
+    "esbuild": "^0.14.22",
     "jszip": "^3.7.1"
-  },
-  "devDependencies": {
-    "vite": "^2.7.2"
   }
 }
