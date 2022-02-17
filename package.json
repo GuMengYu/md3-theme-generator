@@ -1,6 +1,7 @@
 {
   "name": "md3-theme-generator",
   "version": "0.0.1",
+  "author": "gumengyu",
   "keywords": [
     "md3-theme-generator",
     "material theme generator",
@@ -8,7 +9,7 @@
     "MD3"
   ],
   "scripts": {
-    "build": "esbuild index.js --bundle --outfile=out.js"
+    "build": "esbuild index.js --bundle --outfile=dist/md3ThemeGenerator.js"
   },
   "dependencies": {
     "esbuild": "^0.14.22",
