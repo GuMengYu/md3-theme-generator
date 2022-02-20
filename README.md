@@ -12,7 +12,7 @@ npm install md3-theme-generator
 ### Usage
 
 ```javascript
-import { generatePaletteFromURL } from 'md3-theme-generator
+import { generatePaletteFromURL } from 'md3-theme-generator'
 
 const imageUrl = 'https://files.catbox.moe/g2lwbi.jpg';
 
